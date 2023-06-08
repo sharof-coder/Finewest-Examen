@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Sen:wght@700&display=swap");
+footer .footer-content .footer-text p, header .navbar .navbar-nav .navigation li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+header .navbar .navbar-nav .navbar-btn a button {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #232536;
+  padding: 11px 0;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .navbar .navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 83px;
+}
+header .navbar .navbar-nav .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+header .navbar .navbar-nav .navigation li a {
+  color: #FFFFFF;
+}
+header .navbar .navbar-nav .navigation li a:hover {
+  color: #FFD050;
+  transition: all 0.5s;
+}
+header .navbar .navbar-nav .navbar-btn a button {
+  font-size: 18px;
+  width: 147px;
+  height: 56px;
+  border: none;
+}
+header .navbar .navbar-nav .navbar-btn a:hover button {
+  background: #FFD050;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+footer {
+  background: #232536;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+footer .footer-content .footer-text p {
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+footer .footer-content .footer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 27px;
+}
+footer .footer-content .footer-contact a {
+  color: #FFFFFF;
+  opacity: 0.7;
+  width: 18px;
+  height: 18px;
+}
+footer .footer-content .footer-contact a:hover {
+  color: #FFD050;
+  transition: all 0.5s;
+}/*# sourceMappingURL=global.css.map */

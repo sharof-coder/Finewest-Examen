@@ -1,0 +1,164 @@
+.category-content .cards .card p, .section-content .cards .card .card-text p, main .home .paragraphs p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.category-content .cards .card h3, .category-content h1, .section-content .cards .card .card-text h3, .section-content h1, main .home button a, main .home .main-text h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+}
+
+main {
+  background-image: url(../images/blog-main-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 720px;
+  margin-bottom: 94px;
+}
+main .home {
+  padding-top: 128px;
+}
+main .home .main-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+main .home .main-text h1 {
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #FFFFFF;
+  width: 803px;
+  margin-bottom: 24px;
+}
+main .home .paragraphs {
+  margin-bottom: 48px;
+}
+main .home .paragraphs p {
+  width: 599px;
+}
+main .home .paragraphs .p-1 {
+  margin-bottom: 16px;
+}
+main .home .paragraphs .p-1 span {
+  color: #FFD050;
+}
+main .home button {
+  width: 204px;
+  height: 56px;
+  background: #FFD050;
+  border: none;
+  padding: 16px 48px;
+}
+main .home button a {
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #232536;
+}
+main .home button:hover {
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.section-content h1 {
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #000000;
+  margin-bottom: 64px;
+}
+.section-content .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-bottom: 66px;
+}
+.section-content .cards .card {
+  width: 405px;
+}
+.section-content .cards .card img {
+  width: 405px;
+  height: 318px;
+  margin-bottom: 32px;
+}
+.section-content .cards .card .card-text span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4C4C4C;
+}
+.section-content .cards .card .card-text span a {
+  color: rgb(63, 105, 185);
+}
+.section-content .cards .card .card-text h3 {
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+  margin: 16px 0;
+}
+.category-content h1 {
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #000000;
+  margin-bottom: 71px;
+  text-align: center;
+}
+.category-content .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 73px;
+}
+.category-content .cards .card {
+  width: 296px;
+  height: 221px;
+  border: 2px solid #ccccd1;
+  padding: 31px 32px;
+}
+.category-content .cards .card .start-up-icon {
+  width: 48px;
+  height: 46px;
+  border-radius: 8px;
+  background: #FBF6EA;
+  padding: 10px 12px;
+  margin-bottom: 22px;
+}
+.category-content .cards .card img {
+  margin-bottom: 15px;
+}
+.category-content .cards .card h3 {
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+  margin-bottom: 3.5px;
+}
+.category-content .cards .card p {
+  color: #6D6E76;
+}
+.category-content .cards .card:hover {
+  background-color: #FFD050;
+  transition: all 0.5s;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

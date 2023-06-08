@@ -1,0 +1,180 @@
+c%inter-400{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+%sen-700{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+}
+main{
+    background-image: url(../images/blog-main-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+    margin-bottom: 94px;
+    .home{
+        padding-top: 128px;
+        .main-text{
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-bottom: 24px;
+            }
+            h1{
+                @extend %sen-700;
+                font-size: 56px;
+                line-height: 64px;
+                letter-spacing: -2px;
+                color: #FFFFFF;
+                width: 803px;
+                margin-bottom: 24px;
+            }
+        }
+        .paragraphs{
+            margin-bottom: 48px;
+            p{
+                @extend %inter-400;
+                width: 599px;
+            }
+            .p-1{
+                margin-bottom: 16px;
+                span{
+                    color: #FFD050;
+                }
+            }
+        }
+        button{
+            width: 204px;
+            height: 56px;
+            background: #FFD050;
+            border: none;
+            padding: 16px 48px;
+            a{
+                @extend %sen-700;
+                font-size: 18px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                color: #232536;
+            }
+        }
+        button:hover{
+            opacity: 0.7;
+            transition: all 0.5s;
+        }
+    }
+}
+.section-content{
+    h1{
+        @extend %sen-700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+        color: #000000;
+        margin-bottom: 64px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 80px;
+        margin-bottom: 66px;
+        .card{
+            width: 405px;
+            .img-box{
+                width: 405px;
+                height: 318px;
+                margin-bottom: 32px;
+            }
+            .card-text{
+                span{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #4C4C4C;
+                    a{
+                        color: rgb(63, 105, 185);
+                    }
+                }
+                h3{
+                    @extend %sen-700;
+                    font-size: 28px;
+                    line-height: 40px;
+                    letter-spacing: -1px;
+                    color: #232536;
+                    margin: 16px 0;
+                }
+                p{
+                    @extend %inter-400;
+                }
+            }
+        }
+    }
+}
+.category-content{
+    h1{
+        @extend %sen-700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+        color: #000000;
+        margin-bottom: 71px;
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+        margin-bottom: 73px;
+        .card{
+            width: 296px;
+            height: 221px;
+            border: 2px solid #ccccd1;
+            .start-up-icon{
+                width: 48px;
+                height: 46px;
+                border-radius: 8px;
+                background: #FBF6EA;
+                padding: 10px 12px;
+                margin-bottom: 22px;
+            }
+            padding: 31px 32px;
+            img{
+                margin-bottom: 15px;
+            }
+            h3{
+                @extend %sen-700;
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: -1px;
+                color: #232536;
+                margin-bottom: 3.5px;
+            }
+            p{
+                @extend %inter-400;
+                color: #6D6E76;
+            }
+        }
+        .card:hover{
+            background-color: #FFD050;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+    }
+}

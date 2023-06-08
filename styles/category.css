@@ -1,0 +1,119 @@
+.contents .cards .card .card-text p, .contents .search input, main .text-content p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+main .text-content button a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.contents .pagination a, .contents .pagination span a, .contents .cards .card .card-text h2, main .text-content h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+}
+
+main {
+  padding: 80px 0;
+  background: #F4F0F8;
+}
+main .text-content {
+  text-align: center;
+}
+main .text-content h1 {
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+  margin-bottom: 16px;
+}
+main .text-content p {
+  color: #6D6E76;
+  margin-bottom: 32px;
+}
+main .text-content button {
+  border: none;
+}
+main .text-content button a {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+main .text-content button a:hover {
+  color: #FFD050;
+  transition: all 0.5s;
+}
+
+.contents {
+  margin-bottom: 87px;
+}
+.contents .search {
+  margin: 57px 0;
+}
+.contents .search input {
+  width: 100%;
+  height: 76px;
+  padding-left: 24px;
+  border-radius: 1px;
+  border: 2px solid rgba(109, 110, 118, 0.5);
+}
+.contents .cards {
+  margin-bottom: 90px;
+}
+.contents .cards .card {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 32px;
+}
+.contents .cards .card img {
+  width: 447px;
+  height: 312px;
+}
+.contents .cards .card .card-text {
+  width: 779px;
+}
+.contents .cards .card .card-text a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592EA9;
+}
+.contents .cards .card .card-text h2 {
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+  margin-top: 20px;
+  margin-bottom: 64px;
+}
+.contents .cards .card .card-text p {
+  color: #6D6E76;
+}
+.contents .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.contents .pagination span a {
+  font-size: 24px;
+  line-height: 32px;
+  color: #6D6E76;
+}
+.contents .pagination a {
+  font-size: 28px;
+  line-height: 40px;
+  color: #232536;
+}/*# sourceMappingURL=category.css.map */

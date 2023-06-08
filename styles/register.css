@@ -1,0 +1,51 @@
+main .register-section form input {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+main .register-section form button, main .register-section h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+}
+
+main .register-section {
+  width: 768px;
+  padding: 69px 0 158px 0;
+}
+main .register-section h1 {
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+  margin-bottom: 68px;
+}
+main .register-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .register-section form input {
+  height: 76px;
+  border: 2px solid #c5c6d0;
+  border-radius: 1px;
+  padding: 24px;
+}
+main .register-section form button {
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  height: 64px;
+  border: none;
+  background: #FFD050;
+  margin-top: 50px;
+}
+main .register-section form button:hover {
+  opacity: 0.7;
+  transition: all 0.5s;
+  cursor: pointer;
+}/*# sourceMappingURL=register.css.map */

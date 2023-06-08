@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Sen:wght@700&display=swap');
+%inter-400{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+%sen-700{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  header{
+    background: #232536;
+    padding: 11px 0;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .navbar-nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 83px;
+            .navigation{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 24px;
+                li{
+                   a{
+                    @extend %inter-400;
+                    color: #FFFFFF;
+                   }
+                   a:hover{
+                    color: #FFD050;
+                    transition: all 0.5s;
+                   }
+                }
+            }
+            .navbar-btn{
+                a{
+                    button{
+                        @extend %sen-700;
+                        font-size: 18px;
+                        width: 147px;
+                        height: 56px;
+                        border: none;
+                    }
+                }
+                a:hover{
+                    button{
+                        background: #FFD050;
+                        transition: all 0.5s;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+  }
+  footer{
+    background: #232536;
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+        .footer-text{
+            p{
+                @extend %inter-400;
+                color: #FFFFFF;
+                opacity: 0.7;
+            }
+        }
+        .footer-contact{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 27px;
+            a{
+                color: #FFFFFF;
+                opacity: 0.7;
+                width: 18px;
+                height: 18px;
+            }
+            a:hover{
+                color: #FFD050;
+                transition: all 0.5s;
+            }
+        }
+    }
+  }

@@ -1,0 +1,102 @@
+%inter-400{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+%inter-500{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+%sen-700{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+}
+main{
+    padding: 50px 0 122px 0;
+    .main-box{
+    height: 441px;
+    background: #F4F0F8;
+    padding: 83px 0;
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .card{
+            width: 516px;
+            span{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #232536;
+            }
+            h3{
+                @extend %sen-700;
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: -1px;
+                color: #232536;
+                margin-top: 24px;
+                margin-bottom: 16px;
+                width: 416px
+            }
+            p{
+                @extend %inter-400;
+                color: #6D6E76;
+            }
+        }
+    }
+  }
+}
+.content-cards{
+    .card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 128px;
+        .img{
+            position: relative;
+            .icon-1{
+                position: absolute;
+                bottom: 52%;
+                left: -50px;
+            }
+            .icon-2{
+                position: absolute;
+                bottom: -35px;
+                left: 100px;
+            }
+        }
+        .text-content{
+            width: 519px;
+            h2{
+                @extend %sen-700;
+                font-size: 36px;
+                line-height: 48px;
+                letter-spacing: -2px;
+                color: #232536;
+                margin-bottom: 16px;
+            }
+            h4{
+                @extend %sen-700;
+                font-size: 24px;
+                line-height: 32px;
+                color: #232536;
+                margin-bottom: 16px;
+            }
+            p{
+                @extend %inter-400;
+                color: #232536;
+            }
+        }
+    }
+}
